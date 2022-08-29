@@ -17,8 +17,17 @@ If Bookstore, add a Publishers to Bookstore list, then Publisher would act as an
 - Can edit `Author`, `Book`
 - Can delete `Author`, `Book`
 
-#### Author (Admin)
-- Can add `Author`, `Book`
+#### Book Object Properties
+- id INT
+- title STR
+- author STR
+- isbn STR
+- genre STR
+- price FLOAT
+- current-stock INT
+- available BOOL
+- publisher STR
+
 
 
 #### Initialize the project
